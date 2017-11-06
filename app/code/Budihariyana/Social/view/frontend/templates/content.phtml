@@ -1,0 +1,11 @@
+<h1>Hell Yeah..!! This is my template, there are many like it, but this one is mine.</h1>
+<?php $accounts = $block->getAccounts();?>
+<ul>
+<?php foreach($accounts as $account): ?>
+	<li>
+		<a href="<?= $account['url']?>" target="_blank">
+			<i class="<?= $account['icon']?>"></i><?= $account['name']?>
+		</a>
+	</li>
+<?php endforeach; ?>
+</ul>

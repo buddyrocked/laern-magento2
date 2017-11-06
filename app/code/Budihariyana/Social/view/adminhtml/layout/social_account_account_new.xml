@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<!-- for css file -->
+       	<css src="Budihariyana_Social::css/style.css"/>
+        <css src="Budihariyana_Social::js/itsjavi/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min"/>
+       	<!-- for js file -->
+       	<script src="Budihariyana_Social::js/main.js"/>
+	</head>
+    <referenceBlock name="content">
+        <uiComponent name="budihariyana_social_accounts_form"/>
+    </referenceBlock>
+</page>

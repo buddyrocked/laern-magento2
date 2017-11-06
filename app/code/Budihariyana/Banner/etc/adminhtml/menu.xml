@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="Budihariyana_Banner::budihariyana_main_menu" title="Budihariyana" module="Budihariyana_Banner" sortOrder="9999" resource="Magento_Backend::main"/>
+
+		<add id="Budihariyana_Banner::budihariyana_banner_menu" title="Banner Management" module="Budihariyana_Banner" sortOrder="9999" resource="Budihariyana_Banner::budihariyana_banner_menu" parent="Budihariyana_Banner::budihariyana_main_menu" />
+
+		<add id="Budihariyana_Banner::budihariyana_banner_list_menu" title="Banner List" module="Budihariyana_Banner" sortOrder="9999" resource="Budihariyana_Banner::budihariyana_banner_list_menu" parent="Budihariyana_Banner::budihariyana_banner_menu" action="budihariyana_banner_banneritem_backend/index/index"/>
+	</menu>
+</config>

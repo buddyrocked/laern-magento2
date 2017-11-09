@@ -28,8 +28,8 @@
         <argument name="dataProvider" xsi:type="configurableObject">
             <argument name="class" xsi:type="string">Budihariyana\Directory\Ui\Component\Form\Province\DataProvider</argument>
             <argument name="name" xsi:type="string">budihariyana_directory_province_form_data_source</argument>
-            <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
-            <argument name="requestFieldName" xsi:type="string">entity_id</argument>
+            <argument name="primaryFieldName" xsi:type="string">id</argument>
+            <argument name="requestFieldName" xsi:type="string">id</argument>
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="submit_url" xsi:type="url" path="*/*/save"/>
@@ -49,7 +49,7 @@
                 <item name="label" xsi:type="string" translate="true">Main Information</item>
             </item>
         </argument>
-        <field name="entity_id">
+        <field name="id">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="visible" xsi:type="boolean">false</item>
@@ -59,20 +59,65 @@
                 </item>
             </argument>
         </field>
-        <field name="identifier">
+        <field name="country_id">
+            <argument name="data" xsi:type="array">
+                <item name="options" xsi:type="object">Budihariyana\Directory\Model\Country\Status</item>
+                <item name="config" xsi:type="array">
+                    <item name="dataType" xsi:type="string">number</item>
+                    <item name="label" xsi:type="string" translate="true">Country</item>
+                    <item name="formElement" xsi:type="string">select</item>
+                    <item name="dataScope" xsi:type="string">country_id</item>
+                    <item name="sortOrder" xsi:type="number">3</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+                </item>
+            </argument> 
+        </field>
+        <field name="code">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="visible" xsi:type="boolean">true</item>
                     <item name="dataType" xsi:type="string">text</item>
-                    <item name="label" xsi:type="string">Identifier</item>
+                    <item name="label" xsi:type="string">code</item>
                     <item name="formElement" xsi:type="string">input</item>
                     <item name="source" xsi:type="string">main_fieldset</item>
                     <item name="validation" xsi:type="array">
                         <item name="required-entry" xsi:type="array">true</item>
                     </item>
-                    <item name="sortOrder" xsi:type="number">10</item>
+                    <item name="sortOrder" xsi:type="number">1</item>
                 </item>
             </argument>
+        </field>
+        <field name="name">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="label" xsi:type="string">name</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="source" xsi:type="string">main_fieldset</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="array">true</item>
+                    </item>
+                    <item name="sortOrder" xsi:type="number">2</item>
+                </item>
+            </argument>
+        </field>
+        <field name="is_active">
+            <argument name="data" xsi:type="array">
+                <item name="options" xsi:type="object">Budihariyana\Directory\Model\Country\Status</item>
+                <item name="config" xsi:type="array">
+                    <item name="dataType" xsi:type="string">number</item>
+                    <item name="label" xsi:type="string" translate="true">Active</item>
+                    <item name="formElement" xsi:type="string">select</item>
+                    <item name="dataScope" xsi:type="string">is_active</item>
+                    <item name="sortOrder" xsi:type="number">3</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+                </item>
+            </argument> 
         </field>
         <!-- Add your fields here -->
     </fieldset>

@@ -26,13 +26,13 @@
         <argument name="dataProvider" xsi:type="configurableObject">
             <argument name="class" xsi:type="string">BudihariyanaProvinceGridDataProvider</argument>
             <argument name="name" xsi:type="string">budihariyana_directory_province_listing_data_source</argument>
-            <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
+            <argument name="primaryFieldName" xsi:type="string">id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="update_url" xsi:type="url" path="mui/index/render"/>
                     <item name="storageConfig" xsi:type="array">
-                        <item name="indexField" xsi:type="string">entity_id</item>
+                        <item name="indexField" xsi:type="string">id</item>
                     </item>
                 </item>
             </argument>
@@ -110,7 +110,7 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="selectProvider" xsi:type="string">budihariyana_directory_province_listing.budihariyana_directory_province_listing.budihariyana_directory_province_columns.ids</item>
-                    <item name="indexField" xsi:type="string">entity_id</item>
+                    <item name="indexField" xsi:type="string">id</item>
                 </item>
             </argument>
             <action name="delete">
@@ -161,7 +161,7 @@
                 <item name="editorConfig" xsi:type="array">
                     <item name="selectProvider" xsi:type="string">budihariyana_directory_province_listing.budihariyana_directory_province_listing.budihariyana_directory_province_columns.ids</item>
                     <item name="enabled" xsi:type="boolean">true</item>
-                    <item name="indexField" xsi:type="string">entity_id</item>
+                    <item name="indexField" xsi:type="string">id</item>
                     <item name="clientConfig" xsi:type="array">
                         <item name="saveUrl" xsi:type="url" path="*/*/inlineEdit"/>
                         <item name="validateBeforeSave" xsi:type="boolean">false</item>
@@ -189,11 +189,11 @@
                 <item name="config" xsi:type="array">
                     <item name="resizeEnabled" xsi:type="boolean">false</item>
                     <item name="resizeDefaultWidth" xsi:type="string">55</item>
-                    <item name="indexField" xsi:type="string">entity_id</item>
+                    <item name="indexField" xsi:type="string">id</item>
                 </item>
             </argument>
         </selectionsColumn>
-        <column name="entity_id">
+        <column name="id">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="filter" xsi:type="string">textRange</item>
@@ -202,7 +202,7 @@
                 </item>
             </argument>
         </column>
-        <column name="identifier">
+        <column name="code">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="editor" xsi:type="array">
@@ -212,7 +212,7 @@
                         </item>
                     </item>
                     <item name="filter" xsi:type="string">text</item>
-                    <item name="label" xsi:type="string" translate="true">Identifier</item>
+                    <item name="label" xsi:type="string" translate="true">code</item>
                 </item>
             </argument>
         </column>
@@ -220,7 +220,7 @@
         <actionsColumn name="actions" class="Budihariyana\Directory\Ui\Component\Listing\Column\ProvinceActions">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="indexField" xsi:type="string">entity_id</item>
+                    <item name="indexField" xsi:type="string">id</item>
                 </item>
             </argument>
         </actionsColumn>

@@ -8,8 +8,10 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Budihariyana_Directory::country" title="Directory" module="Budihariyana_Directory" sortOrder="10" parent="Budihariyana_Banner::budihariyana_main_menu" resource="Budihariyana_Directory::country"/>
+        <add id="Budihariyana_Directory::directory" title="Directory" module="Budihariyana_Directory" sortOrder="10" parent="Budihariyana_Banner::budihariyana_main_menu" resource="Budihariyana_Directory::country"/>
 
-        <add id="Budihariyana_Directory::country_list" title="Country" module="Budihariyana_Directory" sortOrder="10" parent="Budihariyana_Directory::country" action="budihariyana_directory/country" resource="Budihariyana_Directory::country"/>
+        <add id="Budihariyana_Directory::country" title="Country" module="Budihariyana_Directory" sortOrder="10" parent="Budihariyana_Directory::directory" action="budihariyana_directory/country" resource="Budihariyana_Directory::country"/>
+
+        <add id="Budihariyana_Directory::province" title="Province" module="Budihariyana_Directory" sortOrder="11" parent="Budihariyana_Directory::directory" action="budihariyana_directory/province" resource="Budihariyana_Directory::country"/>
     </menu>
 </config>

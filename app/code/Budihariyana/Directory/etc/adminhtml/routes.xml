@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * routes
+ * @copyright Copyright © 2017 Budihariyana. All rights reserved.
+ * @author    budihariyana@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="budihariyana_directory" frontName="budihariyana_directory">
+            <module name="Budihariyana_Directory" />
+        </route>
+    </router>
+</config>

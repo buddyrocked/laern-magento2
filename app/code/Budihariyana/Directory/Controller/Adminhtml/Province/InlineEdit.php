@@ -63,7 +63,7 @@ class InlineEdit extends Action
 
         try {
             $this->objectCollection
-                ->addFieldToFilter('entity_id', array('in' => array_keys($postItems)))
+                ->addFieldToFilter('id', array('in' => array_keys($postItems)))
                 ->walk('saveCollection', array($postItems));
         } catch (\Exception $e) {
             $messages[] = __('There was an error saving the data: ') . $e->getMessage();

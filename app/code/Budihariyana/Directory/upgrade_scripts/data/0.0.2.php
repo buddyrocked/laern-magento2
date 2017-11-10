@@ -31,14 +31,14 @@
 //update data
 // $connection = $setup->getConnection('sales');
 // $select = $connection->select()
-//     ->from($setup->getTable('sales_order_payment'), 'entity_id')
+//     ->from($setup->getTable('sales_order_payment'), 'id')
 //     ->columns(['additional_information'])
 //     ->where('additional_information LIKE ?', '%token_metadata%');
 //     ...
 //     $connection->update(
 //         $setup->getTable('sales_order_payment'),
 //         ['additional_information' => serialize($additionalInfo)],
-//         ['entity_id = ?' => $item['entity_id']]
+//         ['id = ?' => $item['id']]
 //     );
 // }      
  

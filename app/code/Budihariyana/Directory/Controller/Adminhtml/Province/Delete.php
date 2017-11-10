@@ -44,7 +44,7 @@ class Delete extends Action
     public function execute()
     {
         $resultRedirect = $this->resultRedirectFactory->create();
-        $id = $this->getRequest()->getParam('entity_id', null);
+        $id = $this->getRequest()->getParam('id', null);
 
         try {
             $objectInstance = $this->objectFactory->create()->load($id);

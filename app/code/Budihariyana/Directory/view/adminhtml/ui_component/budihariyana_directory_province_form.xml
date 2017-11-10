@@ -61,13 +61,13 @@
         </field>
         <field name="country_id">
             <argument name="data" xsi:type="array">
-                <item name="options" xsi:type="object">Budihariyana\Directory\Model\Country\Status</item>
+                <item name="options" xsi:type="object">Budihariyana\Directory\Model\Province\CountryList</item>
                 <item name="config" xsi:type="array">
                     <item name="dataType" xsi:type="string">number</item>
                     <item name="label" xsi:type="string" translate="true">Country</item>
                     <item name="formElement" xsi:type="string">select</item>
                     <item name="dataScope" xsi:type="string">country_id</item>
-                    <item name="sortOrder" xsi:type="number">3</item>
+                    <item name="sortOrder" xsi:type="number">0</item>
                     <item name="validation" xsi:type="array">
                         <item name="required-entry" xsi:type="boolean">true</item>
                     </item>

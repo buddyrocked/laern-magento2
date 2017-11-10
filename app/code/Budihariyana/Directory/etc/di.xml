@@ -39,7 +39,7 @@
         <arguments>
             <argument name="collections" xsi:type="array">
                 <item name="budihariyana_directory_country_listing_data_source" xsi:type="string">Budihariyana\Directory\Model\ResourceModel\Country\Grid\Collection</item>
-                <item name="budihariyana_directory_province_listing_data_source" xsi:type="string">Budihariyana\Directory\Model\ResourceModel\Country\Grid\Collection</item>
+                <item name="budihariyana_directory_province_listing_data_source" xsi:type="string">Budihariyana\Directory\Model\ResourceModel\Province\Grid\Collection</item>
             </argument>
         </arguments>
     </type>

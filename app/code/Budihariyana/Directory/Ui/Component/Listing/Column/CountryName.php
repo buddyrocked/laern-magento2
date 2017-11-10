@@ -1,7 +1,7 @@
 <?php
 
 /**
- * ProvinceActions.php
+ * CountryActions.php
  *
  * @copyright Copyright © 2017 Budihariyana. All rights reserved.
  * @author    budihariyana@gmail.com
@@ -12,18 +12,21 @@ use Magento\Framework\UrlInterface;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
 use Magento\Framework\View\Element\UiComponentFactory;
 use Magento\Ui\Component\Listing\Columns\Column;
+use Budihariyana\Directory\Model\CountryFactory;
 
-class ProvinceActions extends Column
+class CountryName extends Column
 {
     /**
      * Url path
      */
-    const URL_PATH_EDIT = 'budihariyana_directory/province/edit';
+    const URL_PATH_EDIT = 'budihariyana_directory/country/edit';
 
     /**
      * @var UrlInterface
      */
     protected $urlBuilder;
+
+    protected $countryFactory;
 
     /**
      * Constructor
@@ -38,9 +41,11 @@ class ProvinceActions extends Column
         ContextInterface $context,
         UiComponentFactory $uiComponentFactory,
         UrlInterface $urlBuilder,
+        CountryFactory $countryFactory,
         array $components = [],
         array $data = []
     ) {
+        $this->countryFactory = $countryFactory;
         $this->urlBuilder = $urlBuilder;
         parent::__construct($context, $uiComponentFactory, $components, $data);
     }
@@ -55,17 +60,9 @@ class ProvinceActions extends Column
     {
         if (isset($dataSource['data']['items'])) {
             $storeId = $this->context->getFilterParam('store_id');
-
             foreach ($dataSource['data']['items'] as &$item) {
-                if (isset($item['id'])) {
-                    $item[$this->getData('name')]['edit'] = [
-                        'href' => $this->urlBuilder->getUrl(
-                            self::URL_PATH_EDIT,
-                            ['id' => $item['id'], 'store' => $storeId]
-                        ),
-                        'label' => __('Edit'),
-                        'hidden' => false,
-                    ];
+                if (isset($item['country_id'])) {
+                    $item[$this->getData('name')] =  $this->countryFactory->create()->load($item['country_id'])->getName();
                 }
             }
         }

@@ -1,68 +1,91 @@
 <?php
+/**
+ * installSchema.php
+ *
+ * @copyright Copyright © 2017 Budihariyana. All rights reserved.
+ * @author    budihariyana@gmail.com
+ */
 namespace Budihariyana\Banner\Setup;
-class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
+
+use Magento\Framework\DB\Ddl\Table;
+use Magento\Framework\Setup\InstallSchemaInterface;
+use Magento\Framework\Setup\ModuleContextInterface;
+use Magento\Framework\Setup\SchemaSetupInterface;
+use Magento\Framework\DB\Adapter\AdapterInterface;
+
+/**
+ * @codeCoverageIgnore
+ */
+class InstallSchema implements InstallSchemaInterface
 {
-    public function install(\Magento\Framework\Setup\SchemaSetupInterface $setup, \Magento\Framework\Setup\ModuleContextInterface $context)
+    /**
+     * {@inheritdoc}
+     * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     */
+    public function install(SchemaSetupInterface $setup, ModuleContextInterface $context) //@codingStandardsIgnoreLine
     {
-        $installer = $setup;
-        $installer->startSetup();
-        //START: install stuff
-        //END:   install stuff
-        
-        //START table setup
-        $table = $installer->getConnection()->newTable(
-            $installer->getTable('budihariyana_banner_banneritem')
+        $setup->startSetup();
+
+        /**
+         * Create table 'budihariyana_banner_banneritem'
+         */
+        $table = $setup->getConnection()->newTable(
+            $setup->getTable('budihariyana_banner_banneritem')
         )->addColumn(
-            'budihariyana_banner_banneritem_id',
-            \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
+            'id',
+            Table::TYPE_INTEGER,
             null,
             [ 'identity' => true, 'nullable' => false, 'primary' => true, 'unsigned' => true, ],
             'Entity ID'
         )->addColumn(
             'title',
-            \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+            Table::TYPE_TEXT,
             255,
             [ 'nullable' => false, ],
             'Banner Title'
         )->addColumn(
             'image',
-            \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+            Table::TYPE_TEXT,
             255,
             [ 'nullable' => false, ],
             'Banner Image'
         )->addColumn(
             'image_mobile',
-            \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+            Table::TYPE_TEXT,
             255,
             [ 'nullable' => true, ],
             'Banner Mobile Image'
         )->addColumn(
             'url',
-            \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+            Table::TYPE_TEXT,
             255,
             [ 'nullable' => true, ],
             'Url Image'
         )->addColumn(
             'creation_time',
-            \Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
+            Table::TYPE_TIMESTAMP,
             null,
-            [ 'nullable' => false, 'default' => \Magento\Framework\DB\Ddl\Table::TIMESTAMP_INIT, ],
+            [ 'nullable' => false, 'default' => Table::TIMESTAMP_INIT, ],
             'Creation Time'
         )->addColumn(
             'update_time',
-            \Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
+            Table::TYPE_TIMESTAMP,
             null,
-            [ 'nullable' => false, 'default' => \Magento\Framework\DB\Ddl\Table::TIMESTAMP_INIT_UPDATE, ],
+            [ 'nullable' => false, 'default' => Table::TIMESTAMP_INIT_UPDATE, ],
             'Modification Time'
         )->addColumn(
             'is_active',
-            \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
+            Table::TYPE_SMALLINT,
             null,
             [ 'nullable' => false, 'default' => '1', ],
             'Is Active'
         );
-        $installer->getConnection()->createTable($table);
-        //END   table setup
-$installer->endSetup();
+
+        // Add more columns here
+
+        $setup->getConnection()->createTable($table);
+
+        $setup->endSetup();
     }
 }

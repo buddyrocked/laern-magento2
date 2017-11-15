@@ -85,7 +85,7 @@
                     <item name="visible" xsi:type="boolean">true</item>
                     <item name="formElement" xsi:type="string">fileUploader</item>
                     <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
-                    <item name="previewTmpl" xsi:type="string">Budihariyana_Banner/image-preview</item>
+                    <item name="previewTmpl" xsi:type="string">Magento_Catalog/image-preview</item>
                     <item name="required" xsi:type="boolean">false</item>
                     <item name="uploaderConfig" xsi:type="array">
                         <item name="url" xsi:type="url" path="budihariyana_banner/banneritem/upload"/>

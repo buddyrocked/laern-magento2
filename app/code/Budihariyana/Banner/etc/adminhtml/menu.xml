@@ -8,7 +8,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Budihariyana_Banner::budihariyana_main_menu" title="Budi Hariyana" module="Budihariyana_Banner" sortOrder="10" action="budihariyana_banner/banneritem" resource="Budihariyana_Banner::banneritem"/>
+        <add id="Budihariyana_Banner::budihariyana_main_menu" title="Budi Hariyana" module="Budihariyana_Banner" sortOrder="99" action="budihariyana_banner/banneritem" resource="Budihariyana_Banner::banneritem"/>
 
         <add id="Budihariyana_Banner::banner" title="Banner" module="Budihariyana_Banner" sortOrder="10" parent="Budihariyana_Banner::budihariyana_main_menu" resource="Budihariyana_Banner::banneritem"/>
 

@@ -57,8 +57,9 @@ class Save extends Action
                 $objectInstance->load($data[$idField]);
                 $params[$idField] = $data[$idField];
             }
-            var_dump($_FILES); die;
-            $data['image'] = 'image.jpg';
+
+            $data['image'] = $data['image'][0]['name'];
+            
             $objectInstance->addData($data);
 
             $this->_eventManager->dispatch(

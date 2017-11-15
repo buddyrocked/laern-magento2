@@ -39,6 +39,7 @@
 
     <virtualType name="[Banneritem]ImageUploader" type="Magento\Catalog\Model\ImageUploader"><!-- replace [entity] with your entity name -->
         <arguments>
+            <argument name="baseTmpPath" xsi:type="string">pub/media/tmp/upload</argument>
             <argument name="basePath" xsi:type="string">pub/media/upload</argument>
             <argument name="allowedExtensions" xsi:type="array"><!-- you can add here file extension restrictions -->
                 <item name="jpg" xsi:type="string">jpg</item>

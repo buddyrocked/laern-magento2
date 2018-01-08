@@ -12,7 +12,7 @@ require(["jquery", "Budihariyana_Social/js/itsjavi/fontawesome-iconpicker/dist/j
 
     $(document).ready(function(){
         alert("Hello");
-        console.log($("input").length);
+        console.log($("input[name='icon']").length);
         $("input[name='icon']").iconpicker({
         	iconpickerCreate:function(){
         		console.log($("input[name='icon']"));
@@ -20,5 +20,7 @@ require(["jquery", "Budihariyana_Social/js/itsjavi/fontawesome-iconpicker/dist/j
         });
         $('#icon2').iconpicker();
 	});
+
+    
 	
 });

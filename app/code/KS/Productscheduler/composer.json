@@ -1,0 +1,21 @@
+{
+    "name": "ks/module-productscheduler",
+    "description": "Product Scheduler",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "bhariyana@kemana.com",
+            "name": "Budi hariyana"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "KS\\Productscheduler\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

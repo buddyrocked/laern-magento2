@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="kemana" sortOrder="999" translate="label">
+			<label>kemana</label>
+		</tab>
+		<section id="productscheduler" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Product Scheduler</label>
+			<tab>kemana</tab>
+			<resource>KS_Productscheduler::config_ks_productscheduler</resource>
+			<group id="options" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label">
+				<label>General Setting</label>
+				<field id="enable" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label" type="select">
+					<label>Enable</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="cron" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="2" translate="label" type="text">
+					<label>Cron Schedule</label>
+					<comment/>
+				</field>
+			</group>
+			<group id="email" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="2" translate="label">
+				<label>Email Setting</label>
+				<field id="email_notification" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label" type="select">
+					<label>Email Notification</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="send_email_before" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="2" translate="label" type="text">
+					<label>Send Email Before</label>
+					<comment/>
+				</field>
+				<field id="email_recipients" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="2" translate="label" type="text">
+					<label>Email Recipients</label>
+					<comment/>
+				</field>
+				<field id="email_sender" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="3" translate="label" type="select">
+					<label>Email Sender</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Email\Identity</source_model>
+				</field>
+				<field id="email_template" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="4" translate="label" type="select">
+					<label>Email Template</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Email\Template</source_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

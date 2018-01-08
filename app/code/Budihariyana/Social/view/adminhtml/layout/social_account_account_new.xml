@@ -3,7 +3,7 @@
 	<head>
 		<!-- for css file -->
        	<css src="Budihariyana_Social::css/style.css"/>
-        <css src="Budihariyana_Social::js/itsjavi/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min"/>
+        <css src="Budihariyana_Social::js/itsjavi/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css"/>
        	<!-- for js file -->
        	<script src="Budihariyana_Social::js/main.js"/>
 	</head>

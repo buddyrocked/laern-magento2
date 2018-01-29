@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright © 2016 Magento. All rights reserved.
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
@@ -648,10 +648,10 @@ class AccountManagementTest extends \PHPUnit_Framework_TestCase
             'id',
             'lastname',
         ];
-        sort($expectedInAfter);
         $actualInAfterOnly = array_keys($inAfterOnly);
-        sort($actualInAfterOnly);
-        $this->assertEquals($expectedInAfter, $actualInAfterOnly);
+        foreach ($expectedInAfter as $item) {
+            $this->assertContains($item, $actualInAfterOnly);
+        }
     }
 
     /**

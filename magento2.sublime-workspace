@@ -1,0 +1,1418 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addToCartArray"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"cre",
+				"creditcard"
+			],
+			[
+				"re",
+				"required	Attr"
+			],
+			[
+				"time",
+				"times_used"
+			],
+			[
+				"crea",
+				"created_at"
+			],
+			[
+				"conte",
+				"contentId"
+			],
+			[
+				"cont",
+				"content_id"
+			],
+			[
+				"conten",
+				"content"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"ba",
+				"banner"
+			],
+			[
+				"part",
+				"partOneAlias"
+			],
+			[
+				"promo",
+				"promoAlias"
+			],
+			[
+				"prom",
+				"promoAlias"
+			],
+			[
+				"pa",
+				"partOneAlias"
+			],
+			[
+				"para",
+				"paramContent"
+			],
+			[
+				"type",
+				"typeId"
+			],
+			[
+				"ban",
+				"banners"
+			],
+			[
+				"bann",
+				"bannerTypeId"
+			],
+			[
+				"url",
+				"urlKey"
+			],
+			[
+				"mac",
+				"macClass"
+			],
+			[
+				"image",
+				"imageMobileFile"
+			],
+			[
+				"arr",
+				"arrData"
+			],
+			[
+				"my",
+				"mycom"
+			],
+			[
+				"old",
+				"oldMessages"
+			],
+			[
+				"class",
+				"classFile"
+			],
+			[
+				"cart",
+				"cartprice"
+			],
+			[
+				"prod",
+				"product_name"
+			],
+			[
+				"log",
+				"logemail"
+			],
+			[
+				"pho",
+				"phoneFormat"
+			],
+			[
+				"flo",
+				"floor"
+			],
+			[
+				"sele",
+				"selectedPrice"
+			],
+			[
+				"sel",
+				"selectedPrice"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"em",
+				"emailJoin"
+			],
+			[
+				"Y-",
+				"Y-m-d"
+			],
+			[
+				"date",
+				"date_add"
+			],
+			[
+				"aba",
+				"abandoned_notified"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"gro",
+				"groupCode"
+			],
+			[
+				"fisr",
+				"first_reminder"
+			],
+			[
+				"web",
+				"website"
+			],
+			[
+				"st",
+				"store"
+			],
+			[
+				"cus",
+				"customer_id"
+			],
+			[
+				"orde",
+				"orderData"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"js",
+				"jsonData"
+			],
+			[
+				"json",
+				"jsonData"
+			],
+			[
+				"save",
+				"saveRequest"
+			],
+			[
+				"jso",
+				"jsonData"
+			],
+			[
+				"stor",
+				"stores"
+			],
+			[
+				"ks",
+				"ks_crm"
+			],
+			[
+				"card",
+				"cardNo"
+			],
+			[
+				"Card",
+				"CardNo"
+			],
+			[
+				"data",
+				"dataProfile"
+			],
+			[
+				"pre",
+				"prefixCode"
+			],
+			[
+				"getMe",
+				"getMemberCodeById"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"grou",
+				"group_id"
+			],
+			[
+				"dat",
+				"dataMember"
+			],
+			[
+				"member",
+				"memberType"
+			],
+			[
+				"customer_group",
+				"customer_group_alias"
+			],
+			[
+				"pos",
+				"postData"
+			],
+			[
+				"sto",
+				"storeEmails"
+			],
+			[
+				"met",
+				"methodName"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"reg",
+				"regionName"
+			],
+			[
+				"imp",
+				"importwarehouse"
+			],
+			[
+				"impor",
+				"importwarehouse"
+			],
+			[
+				"import",
+				"importstock"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"up",
+				"updateData"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"order",
+				"orderid"
+			],
+			[
+				"stat",
+				"status_code"
+			],
+			[
+				"pay",
+				"payloads"
+			],
+			[
+				"ord",
+				"orderIncrementId"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"imgPath",
+				"imgThumbPath"
+			],
+			[
+				"dest",
+				"dest_city"
+			],
+			[
+				"sql",
+				"sqlDelete"
+			],
+			[
+				"row",
+				"rowData"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"del",
+				"delivery_Type"
+			],
+			[
+				"serv",
+				"service"
+			],
+			[
+				"ta",
+				"tarif"
+			],
+			[
+				"store",
+				"storeData"
+			],
+			[
+				"sync",
+				"syncShippingWithBilling"
+			],
+			[
+				"Add",
+				"Address"
+			],
+			[
+				"pro",
+				"productId"
+			],
+			[
+				"_pr",
+				"_price"
+			],
+			[
+				"pare",
+				"parentIdArray"
+			],
+			[
+				"customer",
+				"customer_code"
+			],
+			[
+				"cat",
+				"categoryId"
+			],
+			[
+				"edi",
+				"editorCategoryId"
+			],
+			[
+				"ed",
+				"editorCategoryId"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"xplo",
+				"xploreNode"
+			],
+			[
+				"to",
+				"toHtml"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"ac",
+				"acquiring_bank"
+			],
+			[
+				"STR_",
+				"str_pad"
+			],
+			[
+				"elem",
+				"elementValues"
+			],
+			[
+				"cust",
+				"customer_varchar"
+			],
+			[
+				"curr",
+				"current_month_order"
+			],
+			[
+				"ware",
+				"warehouse_internal_id"
+			],
+			[
+				"warehouse",
+				"warehouse_shipment"
+			],
+			[
+				"comment",
+				"comments"
+			],
+			[
+				"tra",
+				"tracking_numbers"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"_q",
+				"_queryText"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"blo",
+				"blockCode"
+			],
+			[
+				"ava",
+				"availableCategoryReports"
+			],
+			[
+				"wish",
+				"wishlist_id"
+			],
+			[
+				"invoice",
+				"invoice_number"
+			],
+			[
+				"inv",
+				"invoice"
+			],
+			[
+				"payme",
+				"payment_method"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/code/KS/Productscheduler/view/frontend/templates/index/index.phtml",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/code/KS/Productscheduler/Block/Index/Index.php",
+			"settings":
+			{
+				"buffer_size": 774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/code/KS/Productscheduler/Controller/Index/Index.php",
+			"settings":
+			{
+				"buffer_size": 2622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/code/KS/Productscheduler/Controller/Index/Sendmail.php",
+			"settings":
+			{
+				"buffer_size": 1917,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/code/KS/Productscheduler/Cron/Sendmail.php",
+			"settings":
+			{
+				"buffer_size": 1760,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 301.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/magento2",
+		"/D/xampp/htdocs/magento2/app",
+		"/D/xampp/htdocs/magento2/app/code",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/Block",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/Controller",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/Controller/Index",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/etc",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/etc/frontend",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/view",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/view/frontend",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/view/frontend/layout",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/view/frontend/templates",
+		"/D/xampp/htdocs/magento2/app/code/KS",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block/Adminhtml/Catalog/Product",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block/Adminhtml/Catalog/Product/Edit",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block/Adminhtml/Catalog/Product/Edit/Tab",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block/Adminhtml/Form/Element",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block/Index",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Controller",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Controller/Index",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Cron",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/etc",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/adminhtml/email",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/adminhtml/templates",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/frontend",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/frontend/layout",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/frontend/templates",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/frontend/templates/index",
+		"/D/xampp/htdocs/magento2/var",
+		"/D/xampp/htdocs/magento2/var/log",
+		"/D/xampp/htdocs/magento2/vendor",
+		"/D/xampp/htdocs/magento2/vendor/magento",
+		"/D/xampp/htdocs/magento2/vendor/magento/module-sales",
+		"/D/xampp/htdocs/magento2/vendor/magento/module-sales/etc"
+	],
+	"file_history":
+	[
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Cron/Sendmail.php",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/etc/crontab.xml",
+		"/D/xampp/htdocs/magento2/vendor/magento/module-sales/etc/crontab.xml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block/Index/Index.php",
+		"/C/Users/budi/Downloads/KS_Productscheduler/KS/Productscheduler/Block/Index/Index.php",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/Block/Main.php",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/etc/email_templates.xml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/etc/module.xml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Controller/Index/Sendmail.php",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Controller/Index/Index.php",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Block/Adminhtml/Catalog/Product/Edit/Tab/Productscheduler.php.bak",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/etc/frontend/routes.xml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/etc/config.xml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/frontend/layout/productscheduler_index_index.xml",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/view/frontend/layout/social_account_index_index.xml",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/etc/frontend/routes.xml",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/view/frontend/templates/content.phtml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Cron/Scheduler.php",
+		"/D/xampp/htdocs/taketeacher/backend/modules/v1/controllers/AuthController.php",
+		"/D/xampp/htdocs/taketeacher/backend/controllers/MuridController.php",
+		"/D/xampp/htdocs/supermarket/vtdirect_veritrans.log",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Model/Status.php",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/etc/di.xml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/Model/ResourceModel/Product/Collection.php",
+		"/D/xampp/htdocs/magento2/composer.json",
+		"/D/xampp/htdocs/magento2/LICENSE_AFL.txt",
+		"/D/xampp/htdocs/magento2/vendor/magento/zendframework1/library/Zend/Mail/Protocol/Smtp.php",
+		"/D/xampp/htdocs/magento2/vendor/magento/zendframework1/library/Zend/Mail/Protocol/Abstract.php",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/adminhtml/email/email_notification.html",
+		"/D/xampp/htdocs/magento2/vendor/magento/module-catalog/Model/ResourceModel/Product/Collection.php",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/Controller/Index/Index.php",
+		"/D/xampp/htdocs/magento2/var/log/debug.log",
+		"/D/xampp/htdocs/magento2/var/log/exception.log",
+		"/D/xampp/htdocs/magento2/var/log/system.log",
+		"/D/xampp/htdocs/magento2/app/code/Budihariyana/Social/view/frontend/layout/budihariyana_social_index_index.xml",
+		"/D/xampp/htdocs/magento2/app/code/KS/Productscheduler/view/adminhtml/email/email_notification.phtml",
+		"/C/Users/budi/AppData/Local/Temp/fz3temp-1/local.xml",
+		"/C/Users/budi/Downloads/KS_Productscheduler/KS/Productscheduler/Controller/Index/Index.php",
+		"/C/Users/budi/Downloads/KS_Productscheduler/KS/Productscheduler/view/frontend/layout/productscheduler_index_index.xml",
+		"/D/xampp/htdocs/fishnblues/common/config/main-local.php",
+		"/D/xampp/htdocs/take-teacher/backend/modules/v1/controllers/MuridController.php",
+		"/D/xampp/htdocs/supermarket/app/design/adminhtml/default/default/template/sales/items/column/name.phtml",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/base/default/template/vtdirect/form.phtml",
+		"/D/xampp/htdocs/supermarket/magmi/conf/magmi.ini",
+		"/D/xampp/htdocs/supermarket/var/import/MD_Simple_20171221_01.csv",
+		"/C/Users/budi/Downloads/MD_Simple_20171221_01 (2).csv",
+		"/D/xampp/htdocs/supermarket/var/import/export_product_13062017.csv",
+		"/D/xampp/htdocs/supermarket/ranchmag/conf/magmi.ini",
+		"/C/Users/budi/Downloads/MD_Simple_20171221_01 (1).csv",
+		"/D/xampp/htdocs/supermarket/app/code/community/Facebook/AdsExtension/controllers/Adminhtml/FbpixelController.php",
+		"/D/xampp/htdocs/supermarket/app/code/community/Facebook/AdsExtension/Block/common.php",
+		"/D/xampp/htdocs/supermarket/app/etc/applied.patches.list",
+		"/D/xampp/htdocs/supermarket/app/code/local/KS/Promo/controllers/Adminhtml/Promo/ContentController.php",
+		"/D/xampp/htdocs/supermarket/app/Mage.php",
+		"/D/xampp/htdocs/supermarket/app/code/community/Facebook/AdsExtension/Block/AddToCart.php",
+		"/D/xampp/htdocs/supermarket/app/code/community/Facebook/AdsExtension/Model/Observer.php",
+		"/D/xampp/htdocs/supermarket/app/code/community/Facebook/AdsExtension/Block/ViewCategory.php",
+		"/D/xampp/htdocs/supermarket/app/code/community/Facebook/AdsExtension/Block/ViewContent.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/Ranch/SalesOrder/sql/salesorder_setup/mysql4-upgrade-1.0.2-1.0.3.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/Ranch/SalesOrder/Model/Observer.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/Ranch/SalesOrder/Model/System/Observer.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/Ranch/SalesOrder/Block/Adminhtml/Sales/Order/Grid-backup.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/Ranch/SalesOrder/Block/Adminhtml/Sales/Order/Grid.php",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/base/default/template/facebook_ads_extension/addtocart.phtml",
+		"/D/xampp/htdocs/supermarket/app/code/community/Facebook/AdsExtension/etc/adminhtml.xml",
+		"/D/xampp/htdocs/supermarket/app/etc/modules/KS_Referrer.xml",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/ranch/enterprise/template/catalog/product/view/addtocart.phtml",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/base/default/template/facebook_ads_extension/head.phtml",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/base/default/layout/facebook_ads_extension.xml",
+		"/D/xampp/htdocs/supermarket/app/code/local/Ranch/SalesOrder/Block/Adminhtml/Sales/Order/Grid/Grid.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/KS/Price/Model/Layer.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/KS/Price/Model/Catalogsearch/Layer.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/CatalogSearch/Model/Layer.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/CatalogSearch/controllers/ResultController.php",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/kesupermarket/default/template/catalogsearch/result.phtml",
+		"/C/Users/budi/Downloads/products_lowstock.csv",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Adminhtml/controllers/Report/ProductController.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Adminhtml/Block/Report/Grid.php",
+		"/D/xampp/htdocs/supermarket/app/design/adminhtml/default/default/layout/report.xml",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Adminhtml/Block/Report/Product/Downloads/Grid.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Adminhtml/Block/Report/Product/Lowstock/Grid.php",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/base/default/layout/catalogsearch.xml",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Catalog/Model/Resource/Product.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Catalog/Helper/Product.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/KS/Banner/etc/config.xml",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-26-39.csv",
+		"/C/Users/budi/Downloads/recipe-578925-1.php",
+		"/D/xampp/htdocs/printer-thermal/composer.json",
+		"/D/xampp/htdocs/printer-thermal/index.php",
+		"/D/xampp/htdocs/printer-thermal/vendor/mike42/escpos-php/example/barcode.php",
+		"/D/xampp/htdocs/printer-thermal/vendor/mike42/escpos-php/example/receipt-with-logo.php",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/enterprise/default/layout/rma.xml",
+		"/D/xampp/htdocs/supermarket/app/code/community/Veritrans/Vtdirect/Helper/Data.php",
+		"/D/xampp/htdocs/supermarket/app/code/community/Veritrans/Vtdirect/controllers/PaymentController.php",
+		"/C/Users/budi/Downloads/ks_creditcard_token.sql",
+		"/D/xampp/htdocs/supermarket/app/code/local/Ranch/Customer/controllers/AccountController.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Customer/controllers/AccountController.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Customer/Block/Account/Dashboard/Hello.php",
+		"/D/xampp/htdocs/supermarket/app/code/local/Mage/Customer/Block/Account/Creditcard.php",
+		"/D/xampp/htdocs/supermarket/app/design/frontend/ranch/default/layout/customer.xml",
+		"/D/xampp/htdocs/supermarket/app/code/local/Mage/Adminhtml/Block/Catalog/Product/Grids.php",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-47-43.csv",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-43-54.csv",
+		"/D/xampp/htdocs/supermarket/app/code/local/Mage/Adminhtml/Block/Catalog/Product/Grid.php",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-40-01.csv",
+		"/D/xampp/htdocs/supermarket/app/design/adminhtml/default/default/layout/catalog.xml",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-10-43.csv",
+		"/C/Users/budi/Downloads/catalog_product_04-Jan-2018.csv",
+		"/C/Users/budi/Downloads/catalog_product (1).csv",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Adminhtml/controllers/Catalog/ProductController.php",
+		"/C/Users/budi/Downloads/catalog_product_04-Jan-2018_10-48-08.csv",
+		"/C/Users/budi/Downloads/catalog_product_04-Jan-2018_10-23-40.csv",
+		"/D/xampp/htdocs/supermarket/app/etc/modules/KS_Exportgrid.xml",
+		"/D/xampp/htdocs/supermarket/app/code/local/KS/Exportgrid/etc/config.xml",
+		"/D/xampp/htdocs/supermarket/app/code/local/KS/Exportgrid/controllers/catalog/ProductController.php",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-51-14.csv",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-59-22.csv",
+		"/C/Users/budi/Downloads/orders (5).csv",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_16-33-35.csv",
+		"/D/xampp/htdocs/supermarket/app/design/adminhtml/default/default/layout/sales.xml",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_15-13-07.csv",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Grid.php",
+		"/C/Users/budi/Downloads/orders (3).csv",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_14-29-25.xml",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_14-32-36.csv",
+		"/C/Users/budi/Downloads/catalog_product_05-Jan-2018_14-27-57.csv",
+		"/D/xampp/htdocs/supermarket/app/code/core/Mage/Catalog/Block/Product/List.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\Facebook",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local\\KS\\Promo",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\Facebook",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\Facebook\\AdsExtension\\Model",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\Facebook",
+			"D:\\xampp\\htdocs\\supermarket\\app\\design\\frontend",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\core\\Mage\\Adminhtml\\Block\\Report",
+			"D:\\xampp\\htdocs\\supermarket\\app\\design\\frontend",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local\\Ranch\\CatalogSearch",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\core\\Mage\\Catalog",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\core\\Mage\\Catalog\\Model",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local\\KS",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local\\KS\\Price\\Model",
+			"D:\\xampp\\htdocs\\supermarket\\app",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\core",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local\\KS",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local",
+			"D:\\xampp\\htdocs\\supermarket\\app\\design\\frontend",
+			"D:\\xampp\\htdocs\\supermarket\\ranchmag",
+			"D:\\xampp\\htdocs\\supermarket\\app",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local\\KS",
+			"D:\\xampp\\htdocs\\supermarket\\app\\design",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\local\\KS\\Binpromo",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\core\\Mage\\SalesRule\\Model",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code",
+			"D:\\xampp\\htdocs\\supermarket\\app",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\core\\Mage\\Adminhtml\\Block\\Sales",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\MageWorx",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\MageWorx\\OrdersEdit",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\MageWorx\\OrdersEdit\\Block\\Adminhtml",
+			"D:\\xampp\\htdocs\\supermarket\\app\\code\\community\\MageWorx\\OrdersEdit\\Block",
+			"D:\\xampp\\htdocs\\supermarket\\app\\design\\adminhtml",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Promo",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\adminhtml",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local",
+			"D:\\xampp\\htdocs\\projectx\\app\\code",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\CustomProductList",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\adminhtml\\default\\ks_backend\\layout",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport\\Block\\Adminhtml\\Report\\Grid",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\adminhtml\\default\\default\\template\\customer",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Xplore",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Xplore\\Block\\Article",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Xplore\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Promo\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Promo\\Block\\Adminhtml\\Content",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Promo",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Promo\\etc",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local",
+			"D:\\xampp\\htdocs\\projectx\\app\\code",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Brand",
+			"D:\\xampp\\htdocs\\projectx\\errors",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport\\Block\\Adminhtml\\Report\\Grid",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport\\Block",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport\\Block\\Adminhtml\\Report\\Grid\\Column",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\Banner\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\MultiWarehouse\\controllers\\Adminhtml\\Warehouse",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\MultiWarehouse\\controllers",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend\\client",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend\\client\\default\\template",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend\\client\\default\\layout",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\Client",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend\\client\\default\\template\\ks\\uicheckout",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\Client",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app\\code",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend\\client\\default\\template",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\core",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app\\design",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app",
+			"D:\\xampp\\htdocs\\projectx\\app\\design",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\MultiWarehouse\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\MultiWarehouse",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\adminhtml\\default",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\CreditCardDB",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\CreditCardDB\\Block",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\CreditCardDB\\Block\\Adminhtml",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\CreditCardDB\\Block\\Adminhtml\\Bin\\Edit",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend\\client\\default\\template\\ks",
+			"D:\\xampp\\htdocs\\projectx\\app\\design",
+			"D:\\xampp\\htdocs\\projectx\\app\\locale\\id_ID\\template",
+			"D:\\xampp\\htdocs\\projectx\\app\\locale\\id_ID\\template\\email",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\core\\Mage",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\adminhtml",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\frontend\\base\\default\\template\\customer",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism\\Abandonedcarts",
+			"D:\\xampp\\htdocs\\projectx",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism\\Abandonedcarts\\etc",
+			"D:\\xampp\\htdocs\\projectx\\app\\locale\\en_US",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism\\Abandonedcarts",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism\\Abandonedcarts\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS\\UIReport",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism\\Abandonedcarts\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\community\\DigitalPianism",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\core\\Mage\\Sales",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local\\KS",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\core\\Mage\\Adminhtml\\Model",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\core\\Mage\\Adminhtml\\controllers\\Sales",
+			"D:\\xampp\\htdocs\\projectx\\app\\design\\adminhtml\\default\\ks_backend\\layout\\ks",
+			"D:\\xampp\\htdocs\\projectx\\app\\code\\local",
+			"D:\\xampp\\htdocs\\projectx\\app\\code"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$data",
+			"xxx",
+			"store cred",
+			"store credit",
+			"200012633",
+			"francisca.ramli@gmail.com",
+			"200012657",
+			"`e`.`entity_id",
+			"e.entity_id",
+			"catalog_product_entity`",
+			"this->_coket",
+			"@sock",
+			"STREAM_CLIENT_CONNECT",
+			"$this->_socket =",
+			"stream",
+			"stream_context",
+			"stream_context =",
+			"smtp",
+			"state",
+			"RequestInterface",
+			"varien",
+			"apply",
+			"any ",
+			"allowed",
+			"version",
+			"n getFacebookPixelID",
+			"facebook_ads_toolbox",
+			"n getFacebookPixelID",
+			"getFacebookPixelID",
+			"version",
+			"mage::helper('uti",
+			"utilities",
+			"shouldFireAddToCart",
+			"session_id",
+			"addToCart",
+			"fbms_add_to_cart",
+			"getAddToCartArray",
+			"shouldFireAddToCart",
+			"addtocart.phtml",
+			"addtocart",
+			"platform",
+			"shipping",
+			"'shipping",
+			"admin_name",
+			"platform",
+			"prepareColl",
+			"order device",
+			"picker",
+			"platform",
+			"30320541",
+			"30322721",
+			"30320962",
+			"echo",
+			"csv",
+			"limit",
+			"preparecollection",
+			"Mage_Adminhtml_Block_Report_Product_Lowstock_Grid",
+			"n _prepareDownloadResponse",
+			"n_prepareDownloadResponse",
+			"_prepareDownloadResponse",
+			"report_",
+			"csv",
+			"30311744",
+			"setPagerVisibility",
+			"30320962",
+			"100004798",
+			"Toms wasabi almond 35gr",
+			"Your search returns no results",
+			"current_layer",
+			"n prepareProductCollection",
+			"_search",
+			"search",
+			"getProductListHtml",
+			"small_image",
+			"small",
+			"->getCurrentCategory",
+			"at_small_image",
+			"at_small_image.value_id",
+			"_getProductCollection",
+			"getLoadedProductCollection",
+			"layered",
+			"mage::",
+			"modules",
+			"before=\"Mage_Adminhtml\"",
+			"Mage_Adminhtml_Catalog_ProductController",
+			"include_once(\"Mage/Adminhtml/controllers/Catalog/ProductController.php\");",
+			"Solsint_Proextended",
+			"export",
+			"prepareColl",
+			"n _prepareDownloadResponse",
+			"_prepareDownloadResponse",
+			"export",
+			"getCurrentCategory",
+			"prepareProductCollection",
+			"qty",
+			"stock",
+			"where",
+			"collection",
+			"qty",
+			"getCurrentCategory",
+			"_productCollections",
+			"getCurrentCategory",
+			"getLayer",
+			"My Saved Credit Card",
+			"media/import",
+			"30323639",
+			"30323638",
+			"30323639",
+			"30323638",
+			"magmi",
+			"admin,base",
+			"|",
+			"2017-08-",
+			"2017-08-0",
+			"200007",
+			"2000073",
+			"200007388",
+			"breadcrumbs",
+			"My Returns",
+			"<a",
+			"select",
+			"cc_check",
+			"switch_cc_mode",
+			"message",
+			"redirect",
+			"request",
+			"select ",
+			"tr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"KS_Exportgrid",
+			"\"admin,base\"",
+			",",
+			"td",
+			"",
+			"\",\\n",
+			"uireport/report18",
+			"daily_sales_reports",
+			"daily_sales_report",
+			"Report18",
+			"Daily Sales Report",
+			"daily_sales_report",
+			"projectx",
+			"promo",
+			"PROMO",
+			"Promo",
+			"promo",
+			"Promo",
+			"promo",
+			"KS_Promo",
+			"Promo",
+			"promo",
+			"Promo",
+			"promo",
+			"PROMO",
+			"Promo",
+			"promo",
+			"Promo",
+			"promo",
+			"ks_promo",
+			"KS_Promo",
+			"",
+			",\\n",
+			"$this->_second_recipients",
+			"$_second_recipients",
+			",\\n",
+			"'",
+			",\\n\"",
+			",\"\\n",
+			",\"",
+			"sales_order_place_after",
+			"crm",
+			"crm_crm",
+			"0,'',''),",
+			"#",
+			"params[",
+			"card_number",
+			"card",
+			"crm_",
+			"KS_Crm",
+			"crm_setup",
+			"crm/log",
+			"ProjectX Store",
+			"Project X",
+			"Order History",
+			"Address Book",
+			"Account Information",
+			"No product in this category at the moment, subscribe to receive news on new arrivals or contact us for specific product request.",
+			"Projectx Reports",
+			"Change",
+			"phone_number",
+			"getCategoryId",
+			"getUrlCategory",
+			"$this->getCategoryAlias($article->getCategoryid())",
+			"",
+			"Sold Out",
+			"13",
+			"sold_out_",
+			"13",
+			"KS_UIReport_Model_Report13",
+			"$data['shipping']['province_code']",
+			"jQuery",
+			"$jj",
+			"_item",
+			"],\\n[",
+			"ks_multiwarehouse_stock",
+			"LOG_TYPE_IMPORT_WAREHOUSE",
+			"multiwarehouse/warehouse",
+			"$warehouse",
+			"_exportMasterWarehouse",
+			"warehouseFile",
+			"_warehouse",
+			"SUFFIX_MSTR_WAREHOUSE",
+			"warehouseId",
+			">_warehouse",
+			"_exportMasterWarehouse",
+			"warehouseFile",
+			"SUFFIX_MSTR_WAREHOUSE",
+			"LOG_TYPE_MSTR_WAREHOUSE",
+			"$_warehouse",
+			"log_id",
+			"transferheaderid",
+			"{$this->getTable('ks_erp_transferheader')}",
+			"transferdetail",
+			"",
+			"KS_Erp",
+			"KS_Erp_",
+			"",
+			"Mage::getModel('erp",
+			"KS_Erp_",
+			"Mage::getModel('erp",
+			"KS_Erp_",
+			"KS_Erp",
+			"Mage::getModel('erp",
+			"",
+			"KS_Erp",
+			"",
+			"1column-custom.phtml",
+			"XPLORE",
+			"getCategoryAlias",
+			"col-sm-3",
+			"Moment",
+			"Best ",
+			"effect-lexi",
+			"id_3s,en_3s",
+			"1-1-thmb.jpg",
+			"shipping:",
+			"field col-xs-12 col-sm-12 col-md-12 col-lg-12",
+			"banktransfer",
+			"section",
+			"whitesmoke",
+			"249,185,2",
+			"237,25,50",
+			"hotspot",
+			"hotspot_hotspot",
+			"hotspot",
+			"'hotspot",
+			"'hotspot'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/code/KS/Productscheduler/view/frontend/templates/index/index.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/code/KS/Productscheduler/Block/Index/Index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/code/KS/Productscheduler/Controller/Index/Index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/code/KS/Productscheduler/Controller/Index/Sendmail.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/code/KS/Productscheduler/Cron/Sendmail.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "magento2.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 832.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

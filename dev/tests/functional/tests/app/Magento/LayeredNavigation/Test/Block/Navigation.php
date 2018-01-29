@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright © 2016 Magento. All rights reserved.
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
@@ -48,6 +48,15 @@ class Navigation extends Block
      * @var string
      */
     protected $expandFilterButton = '[data]';
+
+    // @codingStandardsIgnoreStart
+    /**
+     * Locator value for correspondent Attribute filter option contents.
+     *
+     * @var string
+     */
+     protected $optionContent = './/*[@id="narrow-by-list"]/div[contains(@class,"filter-options-item") and contains(@class,"active")]//li[@class="item"]/a';
+    // @codingStandardsIgnoreEnd
 
     /**
      * Remove all applied filters.
@@ -103,5 +112,30 @@ class Navigation extends Block
             }
         }
         throw new \Exception("Can't find {$filter} filter link by pattern: {$linkPattern}");
+    }
+
+    /**
+     * Gets all available filters with options.
+     *
+     * @param $attributeName
+     * @return array
+     */
+    public function getOptionsContentForAttribute($attributeName)
+    {
+        $this->waitForElementVisible($this->loadedNarrowByList);
+
+        $this->_rootElement->find(
+            sprintf($this->optionTitle, $attributeName),
+            Locator::SELECTOR_XPATH
+        )->click();
+
+        $options = $this->_rootElement->getElements($this->optionContent, Locator::SELECTOR_XPATH);
+        $data = [];
+
+        foreach ($options as $option) {
+            $data[] = explode(' ', $option->getText())[0];
+        }
+
+        return $data;
     }
 }

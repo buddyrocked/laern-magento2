@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright © 2016 Magento. All rights reserved.
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
@@ -202,12 +202,32 @@ class View extends AbstractConfigureBlock
     private $videoContainer = 'div.fotorama-video-container';
 
     /**
+     * Success message block after add to cart click.
+     *
+     * @var string
+     */
+    private $addToCartSuccess = '.message-success';
+
+    /**
      * Get block price.
+     *
+     * @param FixtureInterface|null $product
      *
      * @return Price
      */
-    public function getPriceBlock()
+    public function getPriceBlock(FixtureInterface $product = null)
     {
+        $typeId = null;
+
+        if ($product) {
+            $dataConfig = $product->getDataConfig();
+            $typeId = isset($dataConfig['type_id']) ? $dataConfig['type_id'] : null;
+        }
+
+        if ($this->hasRender($typeId)) {
+            return $this->callRender($typeId, 'getPriceBlock');
+        }
+
         return $this->blockFactory->create(
             'Magento\Catalog\Test\Block\Product\Price',
             ['element' => $this->_rootElement->find($this->priceBlock, Locator::SELECTOR_XPATH)]
@@ -247,6 +267,7 @@ class View extends AbstractConfigureBlock
     public function clickAddToCart()
     {
         $this->_rootElement->find($this->addToCart, Locator::SELECTOR_CSS)->click();
+        $this->waitForElementVisible($this->addToCartSuccess);
     }
 
     /**
@@ -567,12 +588,19 @@ class View extends AbstractConfigureBlock
      */
     public function closeFullImage()
     {
-        $element = $this->browser->find($this->fullImageClose, Locator::SELECTOR_CSS);
-        if (!$element->isVisible()) {
-            $element->hover();
-            $this->waitForElementVisible($this->fullImageClose);
-        }
-        $element->click();
+        $this->_rootElement->waitUntil(
+            function () {
+                $this->browser->find($this->fullImage)->hover();
+
+                if ($this->browser->find($this->fullImageClose)->isVisible()) {
+                    $this->browser->find($this->fullImageClose)->click();
+
+                    return true;
+                }
+
+                return null;
+            }
+        );
     }
 
     /**

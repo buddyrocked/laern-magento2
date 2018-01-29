@@ -42,11 +42,13 @@ class InstallData implements InstallDataInterface
                 'frontend' => '',
                 'label' => 'Start Date',
                 'input' => 'date',
-                'class' => '',
+                'input_renderer' => 'KS\Productscheduler\Block\Adminhtml\Form\Element\Datetime',
+                'class' => 'validate-date validate-date-range date-start-from',
+                'showsTime' => true,
                 'source' => '',
                 'global' => 1,
                 'visible' => true,
-                'required' => true,
+                'required' => false,
                 'user_defined' => true,
                 'default' => null,
                 'searchable' => false,
@@ -57,7 +59,7 @@ class InstallData implements InstallDataInterface
                 'unique' => false,
                 'apply_to' => '',
                 'system' => 1,
-                'group' => 'General',
+                'group' => 'Product Scheduler',
                 'option' => array('values' => array(""))
             ]
         );
@@ -71,11 +73,13 @@ class InstallData implements InstallDataInterface
                 'frontend' => '',
                 'label' => 'End Date',
                 'input' => 'date',
-                'class' => '',
+                'input_renderer' => 'KS\Productscheduler\Block\Adminhtml\Form\Element\Datetime',
+                'class' => 'validate-date validate-date-range date-start-from',
+                'showsTime' => true,
                 'source' => '',
                 'global' => 1,
                 'visible' => true,
-                'required' => true,
+                'required' => false,
                 'user_defined' => true,
                 'default' => null,
                 'searchable' => false,
@@ -86,7 +90,36 @@ class InstallData implements InstallDataInterface
                 'unique' => false,
                 'apply_to' => '',
                 'system' => 1,
-                'group' => 'General',
+                'group' => 'Product Scheduler',
+                'option' => array('values' => array(""))
+            ]
+        );
+
+        $eavSetup->addAttribute(
+            \Magento\Catalog\Model\Product::ENTITY,
+            'scheduler_status',
+            [
+                'type' => 'int',
+                'backend' => '',
+                'frontend' => '',
+                'label' => 'Product Status',
+                'input' => 'select',
+                'class' => '',
+                'source' => 'KS\Productscheduler\Model\Status',
+                'global' => 1,
+                'visible' => true,
+                'required' => false,
+                'user_defined' => true,
+                'default' => null,
+                'searchable' => false,
+                'filterable' => false,
+                'comparable' => false,
+                'visible_on_front' => false,
+                'used_in_product_listing' => false,
+                'unique' => false,
+                'apply_to' => '',
+                'system' => 1,
+                'group' => 'Product Scheduler',
                 'option' => array('values' => array(""))
             ]
         );

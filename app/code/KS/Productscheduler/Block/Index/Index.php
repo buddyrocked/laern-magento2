@@ -5,22 +5,25 @@ namespace KS\Productscheduler\Block\Index;
 
 class Index extends \Magento\Framework\View\Element\Template
 {
-	protected $_productFactory;
+	protected $_productCollectionFactory;
 
 	public function __construct(
-		\Magento\Framework\View\Element\Template\Context $context,
-		\Magento\Catalog\Model\ProductFactory $productFactory){
-			$this->_productFactory = $productFactory;
-			parent::__construct($context);
+        \Magento\Backend\Block\Template\Context $context,        
+        \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $productCollectionFactory,
+        array $data = []
+    ){
+			$this->_productCollectionFactory = $productCollectionFactory;
+			parent::__construct($context, $data);
 	}
 
     function _prepareLayout(){
-    	$this->_getListData();
+        
     }
 
-    protected function _getListData(){
-    	$model = $this->_productFactory->create();
-    	$collection = $model->getCollection();
-    	$this->setProducts($collection->getData());
+    public function getProductCollection()
+    {
+        $collection = $this->_productCollectionFactory->create();
+        $collection->addAttributeToSelect('start_date, end_date, scheduler_status');
+        return $collection;
     }
 }

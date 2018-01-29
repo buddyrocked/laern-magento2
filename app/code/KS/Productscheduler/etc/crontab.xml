@@ -4,5 +4,8 @@
 		<job instance="KS\Productscheduler\Cron\Scheduler" method="execute" name="ks_productscheduler_scheduler">
 			<schedule>*/5 * * * *</schedule>
 		</job>
+		<job instance="KS\Productscheduler\Cron\Sendmail" method="execute" name="ks_productscheduler_sendmail">
+			<schedule>*/5 * * * *</schedule>
+		</job>
 	</group>
 </config>

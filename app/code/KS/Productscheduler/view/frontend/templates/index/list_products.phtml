@@ -1,0 +1,36 @@
+<?php
+$_objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+
+$productCollection = $_objectManager->create('Magento\Catalog\Model\ResourceModel\Product\CollectionFactory');
+
+$collection  = 	$productCollection->create()
+				->addAttributeToSelect('*')
+				->addAttributeToFilter('start_date', ['lteq'=>date('Y-m-d h:i:s')])
+				->addAttributeToFilter('end_date', ['gteq'=>date('Y-m-d h:i:s')])
+				->load();
+?>
+
+<table>
+	<thead>
+		<tr>
+			<th>No</th>
+			<th>SKU</th>
+			<th>Product</th>
+			<th>Status</th>
+			<th>Start Date</th>
+			<th>End Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach ($collection as $key=>$product): ?>
+			<tr>
+				<td><?= $key?></td>
+				<td><?= $product->getSku();?></td>
+				<td><?= $product->getName();?></td>
+				<td><?= $product->getSchedulerStatus();?></td>
+				<td><?= $product->getStartDate();?></td>
+				<td><?= $product->getEndDate();?></td>
+			</tr>
+		<?php endforeach; ?>
+	</tbody>
+</table>

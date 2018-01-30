@@ -1,6 +1,32 @@
 Hello index/index.phtml
 
-lalal
-<pre />
-<?php print_r($block->getProductCollection())?>
-</pre>
+<?php
+$collection = $this->_getProductCollection();
+?>
+
+<table>
+	<thead>
+		<tr>
+			<th>No</th>
+			<th>SKU</th>
+			<th>Product</th>
+			<th>Status</th>
+			<th>Start Date</th>
+			<th>End Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php if(!empty($collection)): ?>
+		<?php foreach ($collection as $key=>$product): ?>
+			<tr>
+				<td><?= $key?></td>
+				<td><?= $product['sku'];?></td>
+				<td><?= $product['name'];?></td>
+				<td><?= $product['scheduler_status'];?></td>
+				<td><?= $product['start_date'];?></td>
+				<td><?= $product['end_date'];?></td>
+			</tr>
+		<?php endforeach; ?>
+		<?php endif; ?>
+	</tbody>
+</table>

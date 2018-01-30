@@ -33,6 +33,7 @@ class Sendmail
      */
     public function execute()
     {
+        $this->logger->addInfo("Cronjob Send Mail is executed.");
         try
         {
             // Send Mail
@@ -54,7 +55,7 @@ class Sendmail
                ->getTransport();
             $transport->sendMessage();
             $this->inlineTranslation->resume();
-            $this->logger->addInfo("Cronjob Send Mail is executed.");
+            
         } catch(\Exception $e){
             $this->logger->addInfo($e->getMessage());
         }

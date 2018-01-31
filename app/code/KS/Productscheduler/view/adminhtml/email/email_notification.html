@@ -1,4 +1,4 @@
-<!--@subject Email Subject @-->
+<!--@subject Product Scheduler Notification @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image"}
@@ -13,22 +13,13 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                 <table bgcolor="#FFFFFF" cellspacing="0" cellpadding="10" border="0" width="650" style="border:1px solid #E0E0E0;">
                     <tr>
                         <td valign="top">
-                            <h1 style="font-size:22px;font-weight:normal;line-height:22px;margin:0 0 11px 0;">{{trans "Hello"}}, {{var message}}</h1>
+                            <h1 style="font-size:22px;font-weight:normal;line-height:22px;margin:0 0 11px 0;">{{trans "Hello"}}</h1>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <table cellspacing="0" cellpadding="0" border="0" width="650">
-                                <tbody>
-                                    <tr>
-                                        <td colspan="2" valign="top" style="font-size:12px;padding:7px 9px 9px 9px;border:1px solid #EAEAEA;">
-                                            {{var message}}
-                                            <h3>List Products</h3>
-                                            {{block class='Magento\\Framework\\View\\Element\\Template' area='frontend' template='KS_Productscheduler::index/list_products.phtml'}}
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            {{var message}}
+                            {{block class='Magento\\Framework\\View\\Element\\Template' area='frontend' template='KS_Productscheduler::index/list_products.phtml'}}
                         </td>
                     </tr>
                     <tr>

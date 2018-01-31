@@ -66,6 +66,35 @@ class InstallData implements InstallDataInterface
 
         $eavSetup->addAttribute(
             \Magento\Catalog\Model\Product::ENTITY,
+            'start_time',
+            [
+                'type' => 'int',
+                'backend' => '',
+                'frontend' => '',
+                'label' => 'Start Time',
+                'input' => 'select',
+                'class' => '',
+                'source' => 'KS\Productscheduler\Model\Hour',
+                'global' => 1,
+                'visible' => true,
+                'required' => false,
+                'user_defined' => true,
+                'default' => null,
+                'searchable' => false,
+                'filterable' => false,
+                'comparable' => false,
+                'visible_on_front' => false,
+                'used_in_product_listing' => false,
+                'unique' => false,
+                'apply_to' => '',
+                'system' => 1,
+                'group' => 'Product Scheduler',
+                'option' => array('values' => array(""))
+            ]
+        );
+
+        $eavSetup->addAttribute(
+            \Magento\Catalog\Model\Product::ENTITY,
             'end_date',
             [
                 'type' => 'datetime',
@@ -77,6 +106,35 @@ class InstallData implements InstallDataInterface
                 'class' => 'validate-date validate-date-range date-start-from',
                 'showsTime' => true,
                 'source' => '',
+                'global' => 1,
+                'visible' => true,
+                'required' => false,
+                'user_defined' => true,
+                'default' => null,
+                'searchable' => false,
+                'filterable' => false,
+                'comparable' => false,
+                'visible_on_front' => false,
+                'used_in_product_listing' => false,
+                'unique' => false,
+                'apply_to' => '',
+                'system' => 1,
+                'group' => 'Product Scheduler',
+                'option' => array('values' => array(""))
+            ]
+        );
+
+        $eavSetup->addAttribute(
+            \Magento\Catalog\Model\Product::ENTITY,
+            'end_time',
+            [
+                'type' => 'int',
+                'backend' => '',
+                'frontend' => '',
+                'label' => 'End Time',
+                'input' => 'select',
+                'class' => '',
+                'source' => 'KS\Productscheduler\Model\Hour',
                 'global' => 1,
                 'visible' => true,
                 'required' => false,

@@ -4,7 +4,7 @@
 		<productscheduler>
 			<options>
 				<enable/>
-				<cron>* */5 * * *</cron>
+				<cron>*/10 * * * *</cron>
 			</options>
 			<email>
 				<email_notification/>
